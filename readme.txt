@@ -1,354 +1,672 @@
-## SureRank SEO – Smart Assistant with Meta Tags, Social Preview, XML Sitemap, and Schema ##
-Contributors: brainstormforce
-Donate link: https://www.paypal.me/BrainstormForce
-Tags: seo, wordpress seo, xml sitemap, schema, google search console
-Requires at least: 6.8
+=== Dear Flipbook - PDF Flipbook, 3D Flipbook, PDF embed, PDF viewer ===
+Plugin Name: Dear Flipbook - PDF Flipbook, 3D Flipbook, PDF embed, PDF viewer
+Author: dearhive
+Author URI: https://dearflip.com/go/wp-lite-author
+Contributors: deip, dearhive
+Tags: flipbook, flip book, 3d flipbook, pdf flipbook, pdf viewer
+Requires at least: 4.6
 Tested up to: 6.8
-Requires PHP: 8.0
-Stable tag: 1.3.2
+Stable tag: 2.3.75
+Requires PHP: 5.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-SureRank – SEO Assistant with Meta Tags, Social Preview, XML Sitemap, and Schema
+Dear Flipbook creates PDF Flipbook, 3D Flipbook, PDF viewer, PDF embed for WordPress sites. Create impressive and realistic 3D flipbooks with PDFs.
 
 == Description ==
 
-Powerful, lightweight SEO plugin to manage search and social previews, generate XML sitemap, add schema markup — and optimize content.
+Introducing Dear Flipbook (DearFlip), the user-friendly 3D flipbook WordPress plugin. Simply provide the PDF link, and Dear Flipbook will transform your PDF into an immersive 3D flipbook. It's the simplest solution for creating captivating flipbooks in WordPress. Choose from various flipbook styles, including 3D flipbook, 2D flipbook, image flipbook, PDF flipbook, and portfolio flipbooks.
+
+**Engage with Dynamic 3D Flipbooks!** Transform your flat PDFs into captivating and immersive 3D Flipbooks. With Dear Flipbook, you can effortlessly create a visually stunning and realistic 3D Flipbook presentation that will grab your audience's attention. Say goodbye to static documents and bring your PDFs to life!
+
+
+[youtube https://youtu.be/-yuABFt_-0I?si=H9wLA1vJ3j9GMvEx]
+
+### QuickLinks
+
+[WordPress Flipbook Live Demo](https://dearflip.com/go/wp-lite-demo)
+[Online Documentation](https://dearflip.com/go/wp-lite-docs)
+[WordPress Flipbook Pro Version](https://dearflip.com/go/wp-lite-full-version)
+
+### Viewer Modes available in Dear Flipbook
+- **3D Flipbook**- With Dear Flipbook, your PDFs and images will be transformed into interactive, lifelike books. This is achieved through cutting-edge WebGL technology, which does all the complex work behind the scenes. Meanwhile, your customers will be enjoying your PDF content with delight. Our 3D Flipbook is a source of pride for us, and we believe it will soon be for you as well.
+- **2D Flipbook** - "Old but Gold: 2D Flipbook" Experience the classic charm of traditional flipbooks with our 2D flipbook, crafted using CSS and HTML5 tags. This interactive and flippable digital flipbook remains a valuable alternative to its 3D counterpart.When speed is crucial and 3D effects are not a priority, such as on low-end devices, the 2D flipbook offers a faster loading time and a smooth browsing experience. Embrace nostalgia and enjoy the timeless appeal of 2D flipbooks, where the simplicity of design meets the beauty of interactivity.
+- **PDF embed and PDF Viewer** - For those who prefer classic PDF viewers, Dear Flipbook offers a feature that allows you to create PDF embeds on your page that mimic the look and feel of a browser's embedded PDF viewer. This option is particularly suitable for documents with irregular layouts or formatting.
+- **PDF Slider like SlideShare** - Why leave the basic slider, when complex flipbook are already available. Flipbook offers a simple and intuitive slider mode that allows users to view PDF pages as slides. This feature is especially useful for documents with unconventional layouts or formatting, making it easier to navigate and present the content effectively.
+
+
+
+### File Formats Supported by Dear Flipbook
+- **PDF / PDF Flipbook** – Why do we recommend using 3D PDF Flipbooks? The key lies in their incredible simplicity. These PDF flipbooks are incredibly easy to create and use. Built on the powerful PDF.js library, they offer exceptional convenience, making management and updates a breeze. All it takes is a simple link to the PDF file, eliminating any unnecessary hassle. As our recommended file format for 3D flipbooks, we guarantee an unparalleled user experience.
+- **Image / Image Flipbook** – If you have a collection of images that you want to display, why not create a captivating storybook out of them using ALBUMS? Picture Flipbook serves as your virtual album, enabling you to flip through, share, and cherish your photographs and portfolios with the world.
+
+
+### Customer Engagement and Presentation ###
+**Presentation Matters!**  At the core of an online flipbook lies the fundamental principle of customer engagement. Traditional document layouts fall short when it comes to captivating audiences. Scrolling through a PDF to consume content is not ideal, especially when the focus is more on presentation rather than mere information. Whether you're promoting an idea, product, artwork, or portfolio, showcasing it visually is far more impactful than simply listing it. It's no coincidence that websites are not solely text-based; their vibrant colors and interactive elements are designed specifically to foster CUSTOMER ENGAGEMENT.
+
+### How easy is Dear Flipbook? Just 5 Steps! ###
+Known for its user-friendly interface, WordPress serves as an inspiration for Dear Flipbook's post structure when creating and managing 3D flipbooks. The process is designed to be as straightforward and effortless as creating a regular post, making it accessible to users of all skill levels.
+
+
+1. Install the DearFlip 3D flipbook plugin.
+2. Create a new FlipBook post.
+3. Provide a link to your PDF file and save the post.
+4. Copy the generated shortcode and paste the shortcode into the desired page or post.
+5. Publish the page or post, and your interactive 3D Flipbook will be ready to flip and engage your audience!
+
+
+### Dear Flipbook Feature List ###
+* **Realistic 3D flipbook** powered by modern WebGL technology, providing an immersive reading experience.
+* **Reliable 2D flipbook** compatible with low-end devices, serving as a dependable fallback option.
+* User-friendly WordPress post structure simplifies flipbook creation, while the shortcode enables seamless display.
+* Supports both **PDF and image formats**, ensuring versatility and flexibility.
+* Embedded inline flipbook as the default structure for displaying flipbooks.
+* Basic Popup feature allows on-demand flipbook display, ideal for scenarios with multiple flipbooks on a single page.
+* Table of contents for PDF documents, facilitating easy navigation and organization.
+* **PDF viewer and PDF embed** support for seamless integration and compatibility with PDF files.
+* **Slider Mode** display PDF pages as slides, just like in Slideshare.
+* Custom table of contents creator empowers users to design and personalize their content.
+* Page thumbnails preview provides a visual representation of each page, enhancing the user experience.
+* **Deep linking** to specific pages of a flipbook via share button, enabling easy sharing and referencing.
+* Categories feature enables organized management and categorization of flipbooks.
+* Multiple flipbook shortcode enables the display of multiple flipbooks on a single page.
+* **RTL mode** caters to Arabian and other right-to-left languages, ensuring seamless integration and usability.
+* PDF download enable and disable option provides control over the download functionality of flipbooks.
+* Supports an extensive number of pages, exceeding 1000 pages and 500MB in size.
+* Partial loading (on-demand pages) optimizes the loading process, allowing large files to load and start with just a small amount of data.
+
+
+### PRO FEATURES ###
+* PDF links – links inside you PDFs are clickable (Test your PDF links without a premium version using our online [PDF Flipbook Viewer](https://dearflip.com/go/wp-lite-pdf-viewer) to get the idea)
+* More Popup – Open flipbooks using buttons, links, custom HTML or images. Examples
+* Book shelves - Showcase your flipbooks in beautiful bookshelves
+* Global Settings – Control settings for all flipbooks at once with Global Setting
+* Realistic Book covers - Choose realistic 3D book covers instead of plan pages for cover.
+* Spiral 3D Flipbook - Go a level more in realistic 3D Flipbook with spiral flipbook
+* Controls Customization - choosed what controls to hide/display in your flipbook
+* Paper Flexibility - Assess the flexibility and range of motion of the 3D flipbook pages.
+* Text Translation - Translate the text in your flipbook controls and buttons
+* Google Analytics - Track your users action of flipbooks opening
+* Stage Padding - Increase or decrease triage padding between your 3D flipbook and the container element
+* Zoom on mouse scroll options - Turn on or off mouse scroll action for zoom
+* Zoom Ratio - Choose the perfect amount of zoom your flipbook should make.
+* Share Prefix - Change the sharelink prefix to custom slug, default slug is dearflip-
+* PDF links target setting
+* PDF media attachment page flipbook
+* PDF partial loading size - Optimize loading speed with PDF partial loading size.
+* Responsive book thumbs
+* Customization tips and help
+* [Read more in detail](https://dearflip.com/go/wp-lite-vs-premium)
+
+
+
+
+### Dear Flipbook is also available beyond WordPress! ###
+Dear Flipbook, accessible across multiple platforms, proudly serves a diverse user base exceeding 200,000 individuals. These users span various niches, each with unique interests and needs.
+- 100,000+ users on WordPress plugin repository [4.8/5 based on 112 ratings](https://wordpress.org/support/plugin/3d-flipbook-dflip-lite/reviews/)
+- 7,500+ premium customers on CodeCanyon - [Best Rated Premium WordPress Flipbook: 4.9/5 based on 107 ratings](https://dearflip.com/go/dflip-wp-codecanyon)
+- 15,000+ users on Chrome App and Chrome Extension. [4.8/5 based on 45 ratings](https://dearflip.com/go/chrome-app)
+- 10,000+ jQuery and Javascript plugin users.
+
+
+### What do users say about Dear Flipbook? ###
+★★★★★
+>Great plugin – client is very happy with the look. Also, fantastic response time from the developers, and they are very helpful with fixing our specific display issues. [alsalin](https://wordpress.org/support/topic/awesome-7957/)
+
 
 ★★★★★
+>This is the best flipbook plugin I've ever used, and the customer support is even better! It's very easy to use and is very well-made.[kerminaawad](https://codecanyon.net/user/kerminaawad)
 
-[youtube https://www.youtube.com/watch?v=GEeTu2D74Z8]
 
-SureRank was born from a simple idea: SEO doesn’t have to be hard, bloated, or overwhelming.
+★★★★★
+>Its amazing - I have tried the others, this for me is the best
+Simple to set up, add books and use
+Support is top-class and 5***** [spicop](https://codecanyon.net/user/spicop)
 
-As we looked at the existing SEO plugin landscape, we saw a pattern — bloated code, complex settings, technical jargon, cluttered interfaces, and a steep learning curve that left most WordPress users frustrated or confused. These tools were built for experts, not everyday users.
-We wanted to change that.
 
-SureRank is a simple, lightweight SEO assistant designed for anyone — whether you're launching your first website or managing dozens of sites. No more intimidating dashboards or features you’ll never use. Just clean, clear guidance focused on what really moves the needle.
+★★★★★
+>This App is really making my reading more interesting. It's been really boring all these years to read PDF files in a regular PDF reader, but now thanks to you guys, I have a good reader [John Tomsa](https://dearflip.com/go/chrome-app)
 
-<a href="https://bsf.io/surerank-demo" target="_blank" rel="">Try the live demo of SureRank</a>
 
-We cut the fluff and focused on fundamentals:
 
-- Simple, clutter-free interface
-- Optimized code that don’t slow down your site
-- Settings that need minimal inputs from you
-- Straightforward meta and social settings
-- Easy-to-understand schema implementation
-- Smart, visual content optimization tools
-- SERP and content analysis that makes sense
 
-We also recognized that great SEO isn’t just about checklists — it’s about understanding what to do and why. So SureRank includes intuitive visual cues, actionable suggestions, and beginner-friendly insights that help you confidently optimize your content without needing outside help.
+### 3D Flipbook for Chrome Browser ###
+> **FREE PDF Flipbook Reader for your Browser!** Get Dear Flipbook on your Google Chrome. You can further view your local and online PDF to full extent without installing a plugin to any site. Just open the PDF with Chrome and you have your 3D Flipbook ready. [Free Chrome Extension](https://dearflip.com/go/chrome-app)
 
-SureRank is not just another SEO plugin. It’s the SEO assistant that strips away the noise and helps you get results — clearly, quickly, and confidently.
 
-## How Does SureRank Work? ##
 
-From installation to optimizing your first piece of content, SureRank is designed to be simple, intuitive, and beginner-friendly. Here’s how it works:
 
-### Step 1. Install SureRank ###
+== Installation ==
 
-From your WordPress dashboard, navigate to the Plugins menu and click on the "Add New" button. Search for the SureRank plugin, then click "Install Now" and "Activate".
 
-### Step 2. Complete the Onboarding Setup ###
+Thanks for using Dear Flipbook 3D Flipbook plugin – lite edition, on your WordPress site. This page is intended for lite users that are using the lite edition and checking the features of Dear Flipbook WordPress flipbook plugin. Please go through the FAQs that occur during using the lite version.
 
-After activation, you’ll be guided through a quick onboarding process to configure the essential SEO settings for your website. SureRank keeps it simple, so you can complete the setup in just a few minutes — no technical knowledge required.
 
-### Step 3. Fix Site-Level SEO Issues and Start Writing ###
+If these installation FAQs don't solve your query and issues, please contact using the official WordPress support page.
 
-SureRank will perform a quick SEO checkup and highlight important site-level improvements. Once you’ve addressed these, you can start writing new content and optimizing it with real-time suggestions to boost your rankings and stay ahead of competitors.
 
-## SureRank Features ##
+= How to install the Dear Flipbook flipbook WordPress plugin? =
 
-SureRank is packed with powerful features designed to make SEO accessible, actionable, and effective for everyone — from beginners to advanced users. Here’s what you can expect.
 
-### Beginner-Friendly Interface ###
+1. Goto **'Plugins > Add New'** inside WordPress admin
+2. Search for **'dflip'** in the search plugins text box
+3. Locate **dFlip - 3D Flipbook WordPress** and click on **'Install Now'** button
+4. Click on **'Activate'** to activate the plugin
 
-SureRank is built to simplify SEO for users of all skill levels. The clean, clutter-free dashboard uses clear, non-technical language and intuitive navigation, so you’ll never feel overwhelmed or lost. Every step is designed to guide you with confidence, even if you’re optimizing a website for the first time.
 
-### Meta Title and Description Optimization ###
+> Note: When upgrading to the PRO version of Dear Flipbook 3D flipbook WordPress plugin, make sure you deactivate the lite version. Your flip book created with the lite version will stay in the database and work seamlessly. If you are using a cache plugin, we recommend clearing cache if any issues arise.
 
-Easily customize your site’s meta titles and descriptions to ensure they’re optimized for both search engines and users. This feature helps improve your visibility in search results and encourages higher click-through rates.
 
-### Social Media Integration ###
+= Loading Case 1: No Loading Icon + Long Message: =
+dFlip 3D Flipbook WordPress Usage & FAQs 1
+If you see the loading message and don’t see a loading icon. Then the issue is related to code execution.
 
-With the free version, you can configure the title, description, and image that will appear when your content is shared on social media platforms like Facebook and Twitter. This makes it easier to create a strong social presence and drive traffic to your site.
 
-### Home Page SEO Settings ###
+1. Cause A – Other plugin error: Dear Flipbook uses jQuery to start the plugin and if other jQuery plugins cause any errors, the execution of Dear Flipbook is also disturbed. The flipbook never advances further and is stuck at the initial loading message. Check your Browser console (CTRL + SHIFT + I) and make sure there are no errors.
+2. Cause B – WordPress 5.5 update: This is similar to cause A. With WordPress 5.5, jQuery got updated and many other plugins failed, and that results in cause A. So check your Browser console (CTRL + SHIFT + I) and make sure there are no errors.
+3. Cause C – Dear Flipbook error: Check your Browser console (CTRL + SHIFT + I) and make sure there are no errors. If the error displayed is from dflip.min.js then report it using the contact lite support button below.
 
-Ensure your homepage is properly optimized with the ability to customize meta tags, title, and description. This ensures that your homepage is accurately represented in search engine results and gets the attention it deserves.
 
-### Archive Page SEO Settings ###
 
-Gain control over your archive pages by customizing their SEO settings. You can adjust the titles and descriptions or choose to disable indexing, preventing search engines from indexing pages that aren’t needed for SEO.
 
-### Robots Instructions ###
+= Loading Case 2: Loading Icon + Loading Message: =
+This is a normal case and the messages are displayed as the resources and files are loaded.
 
-Take control of how search engines crawl and index your site with robots instructions. You can easily add "No Index," "No Follow," and "No Archive" tags to specific pages, helping you avoid duplicate content issues and guide search engine bots effectively.
 
-### Canonical URL ###
+= Loading Case 3: Loading stuck at certain Message: =
+This happens when the related file for loading is missing or inaccessible. For the best results, we recommend using(hosting) the files from the same domain. Check your Browser console (CTRL + SHIFT + I) and make sure there are no errors. If there are errors please report it using the contact lite support button below.
 
-Ensure that search engines know the preferred version of your pages by setting canonical URLs. This feature helps prevent duplicate content issues by signaling to search engines which page should be considered the "main" version. This improves your site’s SEO health.
 
-### XML Sitemap ###
+= Loading Case 4: Cannot access File: =
+Make sure the file is accessible. Try opening the link in the browser, opening a new tab and inserting the PDF URL – see if it opens. Make sure it opens.
 
-SureRank automatically generates an XML sitemap for your website, making it easier for search engines to crawl and index your content. With this feature, you can ensure that all your important pages are properly indexed, helping your site rank better in search results.
 
-### Schema Markup ###
+1. Cause A – File is not available: Filename is mistaken or not added at all.
+2. Cause B – CORS Issue: This happens a lot when users don’t understand what file access means in the modern web. PDF files are not accessible from one domain to another just like that. They require permission. You need to set proper CORS permission into the domain where the PDF files exist, so that your domain can access it. NOTE: PDF files from online file-sharing servers like Google Drive, One Drive, Dropbox cannot be configured for CORS access. They won’t allow it.
 
-Add structured data to your content with ease using SureRank’s schema markup feature. By implementing schema, you help search engines understand the context of your content, leading to enhanced search results like rich snippets, which can improve visibility and CTR.
 
-### Google Search Console Integration ###
 
-Easily connect SureRank with Google Search Console to monitor your site’s performance directly within your WordPress dashboard. This integration provides insights into content performance, indexing issues, and more, allowing you to make data-driven decisions for your SEO strategy.
-
-### Content Performance in Google SERPs ###
-
-Track how your content is performing in Google Search Engine Results Pages (SERPs) directly from your dashboard. This feature gives you valuable insights into how your pages are ranking, helping you refine and improve your content strategy.
-
-### Site-level SEO Checks ###
-
-SureRank performs automatic site-level SEO checks to identify common issues such as missing sitemap, incorrect open graph tags, indexing problems, and more. With clear recommendations, you can easily fix these issues to ensure your site is fully optimized and performs well in search results.
-
-### Page-level SEO Checks ###
-
-SureRank performs in-depth SEO checks for each individual page of your website, ensuring that every page is optimized for search engines. This includes evaluating elements like meta tags, canonical URL, broken links, and more to ensure your pages are search-engine friendly.
-
-### Image SEO ###
-
-Optimize your images with SureRank’s image SEO feature. It automatically generates alt text for your images, improving accessibility and helping search engines better understand the content of your images. Additionally, it ensures that attachment pages are redirected, keeping your SEO strategy clean and efficient.
-
-### Automatic RSS Feed Optimization ###
-Ensure your RSS feed is optimized for search engines and ready for syndication with SureRank’s automatic RSS feed optimization feature. This helps search engines properly index your RSS content, improving visibility and allowing you to reach a wider audience.
-
-### SEO Metabox ###
-With the SEO Metabox, you can easily set custom meta titles, descriptions, social sharing settings, and robot instructions for each individual post or page. This gives you full control over how your content appears in search results and on social media platforms.
-
-### WooCommerce Integration ###
-SureRank integrates seamlessly with WooCommerce, providing SEO tools specifically designed for your online store. It helps optimize your product pages, categories, and other eCommerce elements to improve search visibility and drive more traffic to your store.
-
-### Migrate from Other SEO Plugins ###
-Switching to SureRank is seamless with the built-in Migration Tool. It allows you to easily migrate SEO data and settings from other popular SEO plugins, such as Rank Math, AIOSEO, or Yoast, without losing critical SEO information. This ensures a smooth transition while preserving your existing optimization efforts.
-
-### Import/Export SureRank Settings ###
-Simplify your SEO management with the ability to export and import SureRank settings. Whether you're setting up multiple sites, collaborating with team members, or sharing configurations with clients, this feature makes it easy to transfer SEO settings across websites quickly and accurately.
-
-## SureRank Pro Version Features ##
-
-For users who want to take their SEO efforts to the next level, SureRank Pro offers powerful, professional-grade tools designed to help you outperform your competitors, optimize content faster, and manage your site's SEO more efficiently. Here’s what you get with SureRank Pro.
-
-### SERP Research ###
-
-Gain a deep understanding of what’s ranking in search results for your target keywords. SureRank Pro’s SERP Research tool analyzes the top-performing pages and provides insights into what it takes to compete and outrank them.
-
-### Content Analyzer ###
-
-SureRank Pro’s Content Analyzer evaluates your content against your competitor’s content and provides actionable suggestions to improve your rankings. It helps ensure that your content is not only high-quality but also fully optimized for both search engines and users.
-
-### Outline Builder ###
-
-Plan better content faster with the Outline Builder. By analyzing top-ranking content, SureRank Pro suggests relevant headings and structure ideas so you can create highly competitive, well-organized content that meets search intent.
-
-### Content Gap Finder ###
-
-Discover missing topics, keywords, and content opportunities that your competitors are covering — but you’re not. The Content Gap Finder helps you close these gaps and make your site a more complete, authoritative resource.
-
-### One-Click SEO Issues Fixer ###
-
-SureRank Pro actively scans your website for common SEO problems and helps you fix them in one click. From missing meta tags to incorrect schema setups, it offers clear solutions to improve your site’s overall SEO health.
-
-### Links Manager ###
-
-Keep track of your internal and external links easily. SureRank Pro’s Links Manager allows you to monitor, organize, and fix broken links, ensuring your site's link structure supports better SEO performance.
-
-### Redirection Manager ###
-
-Set up and manage 301 redirects directly from your WordPress dashboard. The Redirection Manager helps preserve your site’s SEO value when URLs change, preventing broken links and minimizing lost traffic.
-
-### SEO Role Manager ###
-
-Maintain control over your SEO settings with the SEO Role Manager. This feature allows administrators to assign specific SEO capabilities based on user roles, ensuring that only authorized team members can access or modify SEO settings. It helps protect important SEO configurations and prevents accidental changes that could negatively impact your site's rankings.
-
-## Who Can Benefit from SureRank? ##
-
-Almost every website can benefit from a solid SEO strategy — and SureRank makes it simple for everyone. SureRank’s intuitive, beginner-friendly interface combined with its powerful optimization tools caters to a wide range of users across different industries and needs. Here’s who can benefit the most from SureRank:
-
-- **New Website Owners:** If you're launching a brand-new website, SureRank is the perfect SEO companion to help you start strong. It guides new website owners through essential optimization steps, ensuring a solid foundation for search engine visibility right from day one.
-- **Existing Website Owners:** Already have an established site but struggling to improve rankings or feeling overwhelmed by SEO? SureRank helps existing website owners streamline their optimization efforts, identify issues, and take clear steps toward better visibility and performance.
-- **Small Local Businesses:** Entrepreneurs, local shops, and service providers with limited technical knowledge or resources can use SureRank’s beginner-friendly features to effectively optimize their websites without hiring expensive SEO consultants.
-- **Professionals and Agencies:** Freelancers, marketing consultants, and digital agencies can leverage SureRank’s powerful SEO tools, including SEO Role Management and content performance reports, to optimize and manage multiple websites with ease — making it ideal for client work.
-- **Blogs and Online Magazines:** Content creators, bloggers, and digital publications can use SureRank’s SERP Analyzer, Content Gap Finder, and Content Optimizer tools to create content that ranks higher and stays competitive in search engine results.
-- **SaaS and eCommerce Sites:** SaaS businesses and online stores powered by WooCommerce or other eCommerce platforms can benefit from SureRank’s WooCommerce-specific SEO integrations, site-level and page-level checks, and schema optimization, all designed to increase organic traffic and sales.
-
-SureRank is built for everyone — from beginners taking their first steps in SEO to seasoned professionals managing dozens of websites — making search engine optimization simpler, faster, and more effective.
-
-## Some of the WordPress Plugins SureRank Supports ##
-
-SureRank is compatible with plugins such as:
-
-- WooCommerce
-- Elementor
-- Easy Digital Downloads
-- LearnDash
-- LifterLMS
-- Tutor LMS
-- CartFlows
-- SureDash
-- BuddyPress
-- bbPress
-- Spectra
-- GiveWP
-- MemberPress
-- PrestoPlayer
-- Restrict Content Pro
-- SureMembers
-- OttoKit
-- The Events Calendar
-- Wishlist Member
-- And many more
-
-## Some of the WordPress Themes SureRank Supports ##
-
-SureRank works with any theme, including:
-
-- Astra
-- Hello Elementor
-- Kadence
-- GeneratePress
-- Blocksy
-- Bricks Builder
-- Flatsome
-- Hestia
-- Neve
-- Spectra One
-- And many more
-
-## Branding Guideline ##
-
-SureRank® is a registered trademark. Please use the following format when mentioning SureRank anywhere:
-
-- SureRank [correct]
-- Sure Rank [incorrect]
-- Surerank [incorrect]
-- Sureranks [incorrect]
-- Sure ranks [incorrect]
-- SureRanks [incorrect]
-- Sure Ranks [incorrect]
-
-## Connect With Our Team and Community ##
-
-[Join our Facebook group community](https://www.facebook.com/groups/surecart): Learn the tricks and techniques that other SureRank users are using to optimize their sites and grow their business. Also, get exciting insider information on upcoming feature releases.
 
 == Frequently Asked Questions ==
 
-= What makes SureRank different from other SEO plugins? =
-SureRank is built to simplify SEO. It avoids complex jargon and overwhelming settings. With a beginner-friendly interface, lightweight code, smart visual previews, and step-by-step guidance, SureRank feels more like a personal SEO assistant than a traditional SEO plugin.
 
-= Will SureRank slow down my website? =
-Not at all! SureRank is built to be lightweight and fast. It follows modern WordPress coding standards and has no unnecessary bloat, so your website’s performance remains top-notch.
-
-= Is SureRank beginner-friendly? =
-Absolutely. SureRank is designed with simplicity in mind. Even if you’ve never done SEO before, the plugin walks you through the process and shows exactly how your pages will appear in search results — no guesswork involved.
-
-= What are the requirements to use SureRank? =
-You just need an up-to-date version of WordPress. Once you install the plugin, it guides you through a simple onboarding process so you can start optimizing right away.
-
-= Can I track how my content performs in search engines? =
-Yes! SureRank provides insights into how your content is performing in Google SERPs. It also includes site-level and page-level SEO checks, so you can identify and fix optimization issues quickly.
-
-= Does SureRank support schema and XML sitemaps? =
-Yes, SureRank comes with built-in support for schema markup and XML sitemaps out of the box — helping search engines understand and index your site more effectively.
-
-= Can I optimize my WooCommerce products with SureRank? =
-Yes! SureRank fully supports WooCommerce. You can customize SEO titles, descriptions, social previews, schema, and more for all your product pages to improve visibility in search engine results and drive more traffic to your store.
-
-= Does SureRank help with image SEO? =
-Definitely. SureRank automatically generates alt text for images and redirects attachment pages to their parent posts. These optimizations help improve your site's accessibility and search engine visibility.
-
-= Does SureRank work with other SEO plugins? =
-We don’t recommend running multiple SEO plugins at the same time to avoid conflicts.
-
-= What if I want more advanced features? =
-SureRank Pro includes advanced tools like SERP research, content gap analysis, an outline builder, and more — all designed to help you create better content and rank higher in search results.
-
-= How can I report a security bug? =
-We take plugin security extremely seriously. If you discover a security vulnerability, please report it in a safe and responsible manner.
-You can report the issue through our [Bug Bounty Program](https://brainstormforce.com/bug-bounty-program/).
+= How to install Dear Flipbook in my WordPress site? =
 
 
-== Contributors & Developers ==
+Please check the installation tab for details.
 
-"SureRank – SEO Plugin with XML Sitemap, Schema, and Google Search Console Integration" is open source software. The following people have contributed to this plugin.
-Contributors
-Brainstorm Force
+
+
+
+= How many pages can 3D Flipbook support and how big can a PDF file be? =
+
+
+Dear Flipbook - 3D Flipbook uses PDF.js to render the PDF pages. At any given time it requires only 6 pages of data at max. So the amount of pages in a PDF file doesn't really affect the 3D Flipbook. Also, it only loads 6 Pages of data to start the flipbook and this makes it a resource friendly and traffic friendly 3D flipbook. Other 3D flipbooks might crash with huge files, Dear Flipbook will last longer.
+> [Trom Site](https://www.tromsite.com/) is one of our premium client and one of their book has **1144 Pages and is 532MB** in size. It loads with only 4-5MB of PDF data.
+
+
+
+
+= How to create a PDF flipbook in a WordPress Page? =
+
+
+1. Upload a pdf file to your WordPress site.
+2. Inside the Edit page/post, add the following shortcode
+[dflip source="Path\To\PdfFile.pdf"]
+For more details visit the [Online Documentation](https://dearflip.com/go/wp-lite-docs)
+
+
+
+
+= Creating a PDF Flipbook WordPress Post with PDF =
+1. Goto **'dFlip Books > Add New Book'**
+2. Enter the title of the PDF flipbook in Title box
+3. Click on **'Select PDF'** button and select a PDF that you want to use for creating your 3D PDF Flipbook
+4. Upload the PDF file if you have not uploaded already and select the PDF file
+4. CLick on **'Publish'** button and the page should save and reload
+
+
+
+
+= Creating a 3D Flipbook WordPress Post with Images =
+
+
+1. Goto **'dFlip Books > Add New Book'**
+2. Enter the title of the 3D Flipbook in Title box
+3. In 'Book Source Type' select 'Images' to create a WordPress Flipbook from images
+4. Click on **'Add new Page'** button and select the images you want to use for creating your 3D Flipbook WordPress post
+5. Arrange the order of images by dragging the images left or right
+4. Click on **'Publish'** button and the page should save and reload
+
+
+= Adding Flipbook to a WordPress Page =
+
+
+1. From the 3D Flipbook you just created, copy the shortcode from **'Shortcode'** box. Similar to [dflip id="525"][/dflip]
+2. Goto the page where you want to insert the flipbook and paste the shortcode
+
+
+
+
+= Creating a PDF Flipbook with just PDF File URL =
+
+
+You can create a flipbook with just the link and without creating the dFlip post
+1. Goto the page where you want to create a flipbook from pdf
+2. Use a shortcode to embed the flipbook: **[dflip source="example.com/wp-content/uploads/file.pdf"]**
+**source** is the link to the PDF file that you want to convert to Flipbook
+
+
+
+
+= PDF links are not working! =
+
+
+1. PDF links are a premium feature in Dear Flipbook, and won't be displayed in lite version of Dear Flipbook - 3D Flipbook WordPress Plugin. You can test your PDF links to check how they work in our online [PDF Flipbook Viewer](https://dearflip.com/go/wp-lite-pdf-viewer).
+2. Also pay attention that some desktop readers' auto convert URL texts to links and give an assumption that those are links. Such links won't work in every reader and device. One of the popular cases is Adobe PDF Reader: it auto-converts the text URLs to links in desktop but not in mobile apps. So we suggest defining links explicitly and not rely on PDF reader's auto conversion capability.
+
+
+= Start or open a 3D Flipbook at a certain page? =
+
+
+You can set the opening page of a flipbook with shortcode:
+**<code>[dflip id="123" data-page=5]</code>**
+This will create your PDF flipbook or image flipbook to open at page 5 when it starts.
+
+= What is better? PDF embed or lightbox PDF viewer? =
+
+
+We recommend to use lightbox for PDF viewer instead of PDF embed viewer. Using embed can result in extra bandwidth for the PDF documents even if the user maynot view the document.
+
+= How can I become a Contributor? =
+
+If you want to contribute, go to our [DFlip Lite WordPress Repository](https://github.com/dearhive/3d-flipbook-dflip-lite) and see where you can help.
 
 == Screenshots ==
 
-1. Get a quick overview of your site's SEO health—run automated checks for indexing, sitemaps, and more, all directly from the main dashboard.
-2. See impressions, clicks, and keyword trends from Search Console—track what's driving traffic in one clear view.
-3. Set global titles and descriptions for your site—keep your content optimized without editing each page manually.
-4. Control how your pages look on social platforms—set fallback images and metadata for Facebook and X.
-5. Edit SEO details directly in the editor—titles, descriptions, social previews, indexing, and schema all in one panel.
-6. Manage your site's structured data with ease—set default types and control how search engines understand your content.
-7. Run smart checks on every page—spot missing titles, low content, link issues, and more at a glance.
-
+1. 3D Flipbook animation of Dear Flipbook. It's not a CGI it's real live screenshot.
+2. Photography Flipbook with custom image background. You can set custom background to flipbook post and the 3D flipbook will merge into the background.
+3. Realistic 3D Flipbook created with a PDF file. PDF files used is [MeatAtlas](https://www.boell.de/en/meat-atlas)
+4. 2D Flipbook as fallback; when the browser doesn't support 3D WebGL. As of 2020, 97% of the browsers support WebGL
+5. Image flipbook for artist, photographer to showcase their portfolio, collection and artwork
+6. PDF FlipBook viewer with table of contents
 
 == Changelog ==
 
-### 1.3.2 - 16-September-2025 ###
-* Fix: Fixed an issue where SureRank Pro components won't get loaded in some edge cases.
+This lite version is available in WordPress plugin directory since version 1.2.8
 
-= 1.3.1 - 11-September-2025 =
-* Fix: Fixed an issue where Product Schema was not showing correctly on SureCart products.
+= 2.3.75: =
+* Fix: Unwanted code in footer
 
-= 1.3.0 - 04-September-2025 =
-* New: Import/Export functionality for SureRank settings
-* New: Migration – Ability to migrate from the SEOPress plugin to SureRank
-* Improvement: Added a tooltip to the Elementor Editor SureRank Meta Box trigger button
-* Improvement: Introduced a new UI for Twitter previews in the Metabox and General settings
-* Improvement: Enhanced code quality and UI/UX
-* Improvement: Included homepage link in the sitemap XML
-* Fix: Ensured compatibility with Bricks Builder v2.0.1
-* Fix: Ensured the Gutenberg sidebar doesn’t close when the SureRank panel is closed
-* Fix: Resolved an issue with the SEO Bar that displayed an incorrect status despite the page being optimized
-* Fix: Resolved an issue where duplicate canonical meta tags were printed on front page.
+= 2.3.74: =
+* Improve: Code updated as per Plugin Check and WordPress Coding Standards
 
-= 1.2.1 - 28-August-2025 =
-* Fix: Fixed an issue where the index sitemap date was in an incorrect format.
+= 2.3.67: =
+* Improve: ShareBox is added to DOM only when required
+* Fix: Vulnerability (CVE-2025-5314) fix
 
-= 1.2.0 - 18-August-2025 =
-* New: Added the ability to edit the robots.txt file via the SureRank Robots Settings Editor.
-* Improvement: Enhanced code quality and UI/UX.
-* Improvement: Added the option to enable or disable the Migration feature.
-* Improvement: Added the ability to migrate from third-party plugins to SureRank directly within the onboarding flow.
-* Improvement: Implemented caching for the sitemap XML and its related sync feature, resulting in faster sitemap rendering.
-* Fix: Resolved an issue where broken links were not displaying the correct status.
-* Fix: Resolved an issue with meta descriptions on websites using the Avada theme where a shortcode was used on the homepage.
+= 2.3.65: =
+* Add: WordPress 5.8 tested
+* Improve/Fix: Whatsapp IOS fix
+* Fix: Warnings when displaying deleted flipbooks
 
-= 1.1.2 - 29-July-2025 =
-* Improvement: Enhanced error handling and UI feedback for broken or slow-loading external links during Page SEO checks.
-* Fix: Resolved UI glitch in Dia Browser
+= 2.3.57: =
+* Improve/Fix: Vulnerability (CVE ID: CVE-2024-11830) fix improved
 
-= 1.1.1 - 24-July-2025 =
-* Fix: Resolved an issue where migration to SureRank from the Rank Math SEO plugin triggered an error in a specific edge case.
+= 2.3.50: =
+* Add: WP-rocket exclusion attribute for inline script
+* Add: Pinch to zoom for mobile phones
 
-= 1.1.0 - 21-July-2025 =
-* New: Migration – Ability to migrate from the Rank Math SEO plugin to SureRank
-* New: Migration – Ability to migrate from the Yoast SEO plugin to SureRank
-* New: Ability to enable and disable features like Page-Level SEO Checks, Schema, Google Search Console, etc.
-* New: SEO Meta Box compatibility with the Bricks Page Builder
-* Improvement: Improved the performance of the frontend application for SureRank
-* Fix: Resolved an issue where some SEO Meta Box options were not saved in the correct format
+= 2.3.48: =
+* Add: Compatiblity checked with WordPress 6.7
+* Fix: Slider mode not working
+* Improve: RTL thumbs when site is in RTL mode
 
-= 1.0.2 - 10-July-2025 =
-* Fix: Fixed an issue where the SureRank Onboarding details won't get saved in an edge case.
+= 2.3.42: =
+* Add: Review notice
+* Fix: Vulnerability (CVE-2024-8717) fix
+* Fix: Keyboard conflicts in multiple embedded flipbooks. Works when there is one embedded flipbook
+* Improve: 3D Shadow improved for landscape sizes
 
-= 1.0.1 - 08-July-2025 =
-* Improvement: Enhanced the performance of the SureRank SEO Popup on Elementor pages.
+= 2.3.32: =
+* Add: Category filter added in posts page
+* Fix: PDF.js Vulnerability (CVE-2024-4367) fix
+* Improve: PDF.js compatibility
+* Improve: CSS container queries supported and minified
 
-= 1.0.0 - 01-July-2025 =
-* Initial release
+= 2.2.56: =
+* Fix: PDF.js Vulnerability (CVE-2024-4367) fix
+
+= 2.2.55: =
+* Fix: Issues saving settings in Global Settings
+
+= 2.2.54: =
+* Fix: HTML output in prev-next button
+* Improvement: Auto pagemode detection in mobile
+
+= 2.2.49: =
+* Fix: 3D shadow artifact
+* Improvement: Requirejs detection improved
+* Improvement: Hash Detection improved
+* Improvement: PDF.js updated to version 3.11
+
+= 2.2.39: =
+* Fix: Security Fix related to Shortcode
+* Add: Selective loading for scripts
+
+= 2.2.32: =
+* Fix: domain url correction logic, doesn't affect subdomains
+* Fix: PDF.js fallback to stable version to support old browsers
+* Improvement: Device, browser and capability detections
+
+= 2.2.29: =
+* Fix: PDF.js API mismatch due to cache
+
+= 2.2.28: =
+* Fix: Share link fixes for old prefixes
+
+= 2.2.27: =
+* Fix: Security fix related to Outline
+
+= 2.2.26: =
+* Add: Translate Support
+* Fix: Mobile zoom improved and stabilized
+* Fix: Reordering custom outline
+* Improvement: PDF.js is upgraded to 3.7
+
+= 2.1.183: =
+* Not Released on wordpress.org
+* Fix: PHP 8.2 compatibility
+* Fix: jQuery conflicts solved
+* Improvement: Settings Categorized
+* Improvement: Lightbox Thumbnails are more realistic
+* Improvement: Zoom Logic Improved
+* Improvement: 3D browser support check
+
+ = 2.0.86: =
+ * Fix: 2D flipbook mobile drag and release
+ * Fix: Keyboard navigation for embedded missing
+ * Improvement: jQuery conflicts improved, recommended jQuery version 3.0+
+ * Improvement: WP 6.3 support
+
+ = 2.0.79: =
+ * Added: Detection of 3D support in browser
+ * Added: Download handles https and http mismatch.
+ * Fixed: Ajax loaded flipbooks were not working
+ * Fixed: Play icon design fixed
+ * Fixed: PDF Loading info fluctuation when pdf was zipped – fixed
+ * Fixed: Buttons not working in Ajax loaded content
+ * Fix: IOS thumb size issue fixed
+ * Fix: Blank pages in Single Page mode resolved
+ * Improvement: WP 6.3 support
+ * Improvement: 2D Flipbook improved and has better flips with variable pages
+ * Improvement: Page label size calculation
+ * Improvement: Bookmark navigation improves handling of zombie(old) requests
+ * Improvements: 3D Cover color doesn’t affect the texture anymore
+ * Improvement: PDF.js updated to version 2.12.313
+
+ = 1.7.35: =
+ * Improvement: WP 6.1 support
+
+ = 1.7.33: =
+ * Fix: Better Bg calculation
+ * Improvement: WP 6.0 support
+
+ = 1.7.30: =
+ * Fix: Table of content sorting issue
+
+ = 1.7.25: =
+ * Fix: Outline drag and drop fix
+ * Improvement: 2D flipbook pages were cut off.
+
+ = 1.7.18: =
+ * Improvement: Zoom on scroll now affects on lightbox and fullscreen. Normal embedded mode is skipped.
+
+ = 1.7.17: =
+
+ * Fix: iPad shadow removed
+ * Fix: thumbtype support in shortcode
+
+ = 1.7.13: =
+
+ * Fix: Security Fix related to shortcode
+
+ = 1.7.9: =
+
+ * Fix: Tabs supports. 3D Flipbook now work properly inside tabs and popups
+ * Improvement: Category Column added
+
+ = 1.7.6: =
+
+ * Fix: RTL DoublePage mode links issue
+ * Fix: Book position misaligned during closing
+ * Improvement: AutoEnable outline will be skipped if outline is missing.
+
+ = 1.7.5: =
+
+ * Improvement: PDF.js minor improvements
+
+ = 1.7.4: =
+
+ * Improvement: PDF.js version updated to 2.5.207
+ * Fix: Missing images in PDF renders
+ * Fix: Script has class added for custom detection - user requirement
+
+ = 1.7.3: =
+
+ * Tested upto WordPress 5.5
+ * Fix: Tooltip hovered on flipbook is fixed.
+
+ = 1.7.1: =
+
+ * Plugin dFlip - 3D Flipbook  renamed to full name DearFlip - WordPress 3D Flipbook
+ * Improvement: WordPress flipbook post Links and descriptions updated to reflect leaving CodeCanyon
+
+ = 1.6.10: =
+
+ * Fix: Font issue with multiple PDF flipbook in a single page.
+
+ = 1.6.9: =
+
+ * Improvement: Code updates as per compliance to WordPress guidelines
+
+ = 1.6.8: =
+
+ * Improvement: Flipbook Pages are no longer limited to 30 Pages!!
+
+ = 1.6.7: =
+
+ * Improvement: WordPress flipbook post RTL correction in admin area.
+ * Improvement: External Translate Feature to support third party Plugin translate (Premium)
+
+ = 1.6.5: =
+
+ * Improvement: Individual Flipbook Page Mode is now also available as Global Setting(premium)
+
+ = 1.6.4: =
+
+ * Removed: Custom Fullscreen support for IOS, Lightbox are near alternatives.
+
+ = 1.6.3: =
+
+ * Add: Page Size option for setting double internal layout
+ * Fix: disableFontFace not required in PDF.js new version so disabled by default for PDF flipbook
+ * Fix: Better support for CloudFlare CDN RocketLoader, removed defer attribute as per customer case
+
+ = 1.6.2: =
+
+ * Fix: PageCount fix for booklet mode, Extra pages are not included
+
+ = 1.6.1: =
+
+ * Fix: UI controls name conflict with other custom name function
+ * Fix: FullScreen transparent fix on IOS
+
+ = 1.6.0: =
+
+ * Improvement: PDF.JS updated to new version
+
+ = 1.5.9: =
+
+ * Add: Translate option for loading, mail text and subject (Premium)
+ * Add: PDF attachment page auto creates flipbook from the PDF file
+ * Improvement: Lightbox closes with ESC key
+
+ = 1.5.8: =
+
+ * Add: Auto disable lite-version when pro-version is activated.
+
+ = 1.5.6: =
+
+ * Add: Link target options for PDF flipbook links
+ * Improvement: HTTP and HTTPS file not found conflict is autocorrected depending on the page protocol
+
+ = 1.5.33: =
+
+ * Add: Google Analytics beta implementation
+ * Improvement: openpage moved to getOptions
+ * Fix: Limit ="-1' is now as default, no more limited to 5 flipbooks
+
+ = 1.5.21: =
+
+ * Improvement: Code refactor for ZoomScale
+ * Improvement: Outline is hidden in PDF flipbook if outline is not available in PDF
+
+ = 1.5.19 =
+
+ * Fix: Fullscreen fix for auto-height
+ * Fix: Open Page fix for multiple flipbook with the same id
+
+ = 1.5.15 =
+
+ * Improvement: Save error details are displayed for debugging.
+ * Fix: Cron updates will also save the dFlip post
+
+ = 1.5.142 =
+
+ * Fix: Compatibility issues with php7 if the shortcode is empty by mistake and small notices fixes
+
+ = 1.5.141 =
+
+ * Fix: Lightbox size correction while in wp amin
+
+ = 1.5.14 =
+
+ * Fix: Auto Height for lightbox set to 100%
+
+ = 1.5.13 =
+
+ * Improvement: Auto Height
+ * Add: Controls Position setting
+ * Improvement: Requirejs and ES6 compatibility
+
+ = 1.4.3 =
+
+ * Improvement: https mode is auto-detected when migrating from http
+ * Fix: cMap location updated for newer PDF.js version
+ * Fix: Booklet mode in mobile reverse flips were not clearing old images
+ * Fix: PaddingLeft and PaddingRight fixes
+
+ = 1.4.2 =
+
+ * Add: OpenPage parameter
+ * Improvement: compatibility for php 5.2
+ * Improvement: Category Limit fix
+ * Improvement: Auto-detection of code location
+ * Improvement: Require.js compatibility
+ * Improvement: PDF.JS update
+ * Improvement: Thumb sync
+
+ = 1.3.3 =
+
+ * Add: Categories for WordPress
+ * Add: New Short-code to support multiple books
+ * Add: Range Size option added
+ * Improvement: Smooth animated zoom
+ * Improvement: Video Tutorials and easy shortcode in post screen
+ * Improvement: CMAPs added in options
+ * Improvement: canvas mode added in options
+ * Improvement: `morecontrols` options is added
+ * Improvement: autoplay options is added
+ * Improvement: compatibility for php 5.3
+ * Fix: IE10 compatibility
+ * Fix: Line-height was overridden in some themes
+ * Fix: Thumb animation removed in safari
+
+ = 1.2.8 =
+
+ * First release on plugin directory
+ * Add: Pinch To Zoom
+ * Add: PDF annotation icons support
+ * Add: WebGL shadow option
+ * Add: Annotation class option
+ * Improvement: Clear text in mobile
+ * Improvement: Close button for thumbnail and outline
+ * Improvement: Added mail and google plus share
+ * Improvement: Support loading scripts when there are no script tags available
+ * Improvement: Organized `maincontrols` order
+ * Improvement: PDF.js Update
+ * Improvement: THREE.js update
+ * Improvement: Double size images support
+ * Improvement: Webkit CSS support
+ * Fix: Center Align Issue in mobile
+ * Fix: Safari Fixes
+ * Fix: Escape button for full-screen resolved
+ * Fix: Page blur due to size miscalculation
+ * Fix: Missing Outline icon from font-awesome
+ * Fix: __extends() function is not isolated
+ * Fix: RTL booklet update
+
+ = 1.2.7 =
+ * New Feature: Booklet mode option added in single page
+ * New Feature: Auto enable thumbnails
+ * New Feature: Zoom ratio option
+ * New Feature: Force fit pages option
+ * Improvement: Smooth animated zoom
+ * Improvement: Smooth loading updates
+
+ = 1.2.6 =
+ * New Feature: Deep Linking
+ * New Feature: Share Option
+ * Improvement: Multiple size PDF Flipbook support
+ * Improvement: FullScreen support for IE and browsers in IOS
+
+ = 1.2.4 =
+ * New Feature: Custom Controls position
+ * Improvement: HTML Method for Flipbook creation
+ * Improvement: Loading Info
+ * Improvement: Compatibility with old and new jQuery
+ * Improvement: require.js and cloudflare compatibility
+ * Fix: Keyboard page-number issues in IE
+
+ = 1.2 =
+ * New Feature: Translate
+ * New Feature: Swipe gestures
+ * Improvement: Realistic turn effect in CSS Flipbook
+ * Improvement: Multi-stage zoom
+ * Improvement: New clean layout
+ * Improvement: Optimized 3D WebGL mode
+ * Fix: Compatibility issues for IE 10, IE11
+
+ = 1.1.3 =
+ * Improvement: PDF Flipbook annotation alignment for RTL mode
+ * Improvement: LightBox Examples added
+ * Fix: CSS load Fixes for IE
+
+ = 1.1.2 =
+ * New Feature: Light-box mode added
+ * Improvement: jQuery Flipbook - Examples
+
+ = 1.1 =
+ * New Feature: Better Responsive structure with Single Page Mode
+ * New Feature: RTL mode
+ * New Feature: Flip Sound
+ * New Feature: PDF Flipbook - download option
+ * Improvement: Smart Fallback to HTML5 Flipbook
+ * Improvement: Better Icons
+
+ = 1.0 =
+  RELEASE
 
 == Upgrade Notice ==
-= 1.0.0 =
-Initial release
+Premium Version is now available for purchase directly on dearflip.com instead of codecanyon.net
