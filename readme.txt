@@ -1,289 +1,533 @@
-=== Hustle - Free Popup Builder & Optin Plugin for Email Marketing & Lead Generation Popups ===
-Plugin Name: Hustle - Free Popup Builder & Optin Plugin for Email Marketing & Lead Generation Popups
-Version: 7.8.8
-Author: WPMU DEV
-Author URI: https://wpmudev.com/
-Contributors: WPMUDEV
-Tags: popup,lead generation,marketing,optin,popups
-Requires at least: 6.4
+=== Sticky Header Effects for Elementor ===
+Contributors: posimyththemes, devangvachheta, sagarpatel124, rwattner, dgovea
+Tags: Elementor, Elementor Page Builder, Add-ons, Header, Sticky Header
+Requires at least: 6.3
 Tested up to: 6.8
-Requires PHP: 7.4
-Stable tag: 7.8.8
-License: GPL v3
-License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Requires PHP: 7.0
+Stable tag: 2.1.2
+License: GPLv3
+License URI: https://opensource.org/licenses/GPL-3.0
 
-Grow your audience and boost conversions with Hustle. Create beautiful popups, slide-ins and lead gen forms for WordPress. No coding needed.
+Create advanced Sticky Headers in Elementor Free or Pro with scroll effects, blur, shrink, hide on scroll & full responsive controls. 
+
 == Description ==
-Meet your new favorite marketing sidekick. ✨
 
-Hustle helps you grow your mailing list, capture leads, and promote your offers, without annoying your visitors or making your site look like a discount warehouse.
+## Sticky Header Effects for Elementor – Build Smart, Responsive Sticky Headers
 
-Build beautiful popups, slide-ins, and optin forms in minutes. Everything is fully customizable, design, layout, triggers, and targeting, no coding needed.
+Sticky headers are essential for improving navigation, branding visibility, and user experience on any modern website. With the **Sticky Header Effects for Elementor** plugin, you can now build sleek, customizable sticky headers that respond to user scroll behavior — all with **Elementor Free or Pro**.
 
-Whether you're just starting out or scaling fast, Hustle gives you the tools and creative freedom to convert more visitors your way.
+From transparent overlays to animated shrinking effects, dynamic background changes, and blur visuals — this plugin gives you 10+ scroll-based effects that help your header adapt beautifully to your page design.
 
-–   Need even more power? Upgrade to [Hustle Pro](https://wpmudev.com/project/hustle/?utm_source=wordpress.org&utm_medium=readme&utm_campaign=hustle-readme-above-the-fold&utm_content=hustle_pro) to unlock unlimited popups and optins, smart triggers, and full access to the WPMU DEV toolkit.
-    
+This plugin is perfect for developers, designers, bloggers, and agencies who want more control over header behavior without writing a single line of code.
 
-## TL;DR: Hustle’s Key Features at a Glance
+**This Plugin has been Acquired by POSIMYTH Innovations - [Read Announcement Blog](https://stickyheadereffects.com/massive-updates-2-0/?utm_source=wordpress&utm_medium=readmepage&utm_campaign=nexterextension)**  
 
-–   Advanced Targeting – Show content based on behavior, device, or referral.
-    
-–   Scheduling – Time your popups for peak impact.
-    
-–   Conditional Logic – Show or hide content based on user behavior.
-    
-–   Google ReCAPTCHA – Stop spam while keeping things smooth.
-    
-–   Built-In Analytics – Monitor views, clicks, and conversions.
-    
-–   GDPR & HIPAA Ready – Stay compliant with privacy regulations.
-    
-–   All-in-One Dashboard – Manage everything inside WordPress.
-    
+[🌐 Visit Website](https://stickyheadereffects.com/?utm_source=wordpress&utm_medium=readmepage&utm_campaign=StickyHeaderEffects)| [🖼️ Sticky Header Templates Demos](https://stickyheadereffects.com/sticky-header-for-elementor-templates/?utm_source=wordpress&utm_medium=readmepage&utm_campaign=StickyHeaderEffects) | [📹 Video Tutorials](https://www.youtube.com/c/POSIMYTHInnovations/?sub_confirmation=1) | [📑 Documentations](https://stickyheadereffects.com/docs?utm_source=wordpress&utm_medium=readmepage&utm_campaign=StickyHeaderEffects) | [👥 Join Community](https://www.facebook.com/groups/theplus4elementor/) | [🤝 Free Support](https://wordpress.org/support/plugin/sticky-header-effects-for-elementor/) 
 
-★★★★★  
-"Feature rich and easy to use. Gives you everything, from socialshare, pop-up, slide-in, and email capture. Shortcodes make the plugin easy to use. I love it!" – [ReviewHub](https://wordpress.org/support/users/reviewhub/)
+### 🔥 Comes with [50+ Ready to Import Templates for Elementor Headers with Sticky Header](https://stickyheadereffects.com/sticky-header-for-elementor-templates/?utm_source=wordpress&utm_medium=readmepage&utm_campaign=StickyHeaderEffects)
 
-## Why Hustle?
-Popups can be beautiful. Lead gen can be smart. Hustle proves it.
 
-Instead of bombarding your visitors with bland popups and forms, Hustle gives you the creative tools you need to grow your audience and your business, without sacrificing your brand's style (or your sanity).
+## 👑 10+ Powerful Elementor Sticky Header Effects
 
-From building your email list to promoting sales, webinars, or limited-time offers, Hustle helps you move users to action, naturally, professionally, and effectively.
+### 1. Header Scroll Distance Effect 
+**Set Scroll Trigger Threshold**  
+Define how far the user scrolls before sticky effects activate. Perfect for precise control over header behavior.  
+👉 [View Demo](https://stickyheadereffects.com/sticky-header-for-elementor-templates/?checkbox-sticky_header_effects=Header+Scroll+Distance&utm_source=wordpress&utm_medium=readmepage&utm_campaign=StickyHeaderEffects)
 
-Whether you’re a blogger, agency, store owner, or entrepreneur, Hustle makes it ridiculously easy to create gorgeous, high-converting marketing assets in WordPress.
+### 2. Transparent Header Background Effect  
+**Overlay with Elegance**  
+Allow your header to overlay your hero or banner sections with full transparency. Ideal for modern homepage designs.  
+👉 [View Demo](https://stickyheadereffects.com/sticky-header-for-elementor-templates/?checkbox-sticky_header_effects=Transparent+Header+Background&utm_source=wordpress&utm_medium=readmepage&utm_campaign=StickyHeaderEffects)
 
-## Hustle Really Hustles: Check Out These Great Features
+### 3. Dynamic Background Color Change
+**Auto Background Switching**  
+Change your header’s background color on scroll to match different sections or maintain contrast.  
+👉 [View Demo](https://stickyheadereffects.com/sticky-header-for-elementor-templates/?checkbox-sticky_header_effects=Background+Color+Change&utm_source=wordpress&utm_medium=readmepage&utm_campaign=StickyHeaderEffects)
 
-### Smart, Not Spammy
-**Be engaging, not annoying.**  
-Use popups that are timed, triggered, and targeted to perfection. Customize colors, fonts, images, animations, and more.
+### 4. Bottom Border Styling Effect
+**Subtle Section Separation**  
+Add customizable borders below your sticky header for better definition and clean design.  
+👉 [View Demo](https://stickyheadereffects.com/sticky-header-for-elementor-templates/?checkbox-sticky_header_effects=Bottom+Border+Styling&utm_source=wordpress&utm_medium=readmepage&utm_campaign=StickyHeaderEffects)
 
-### Slide-Ins That Stay Classy
-**Subtle, stylish messages when visitors are ready.**  
-Perfect for newsletter sign-ups, announcements, or promotions without taking over the whole screen.
+### 5. Header Shrinking Effect 
+**Reduce Header Height Dynamically**  
+Shrink the entire header after scrolling to save space and focus attention on the page content.  
+👉 [View Demo](https://stickyheadereffects.com/sticky-header-for-elementor-templates/?checkbox-sticky_header_effects=Header+Shrinking&utm_source=wordpress&utm_medium=readmepage&utm_campaign=StickyHeaderEffects)
 
-### High-Converting Optin Forms
-**Built-in form builder, so you can grow your list faster.**  
-Create beautiful embedded optins for sidebars, footers, inline areas, and anywhere else you want to invite users to connect.
+### 6. Logo Shrinking Effect  
+**Responsive Logo Transition**  
+Shrink the logo proportionally during scroll, maintaining visual balance and brand presence.  
+👉 [View Demo](https://stickyheadereffects.com/sticky-header-for-elementor-templates/?checkbox-sticky_header_effects=Logo+Shrinking&utm_source=wordpress&utm_medium=readmepage&utm_campaign=StickyHeaderEffects)
 
-### Connect With Visitors Via Email
-**Keep the conversation going with your audience.**  
-Once a user has engaged with one of your marketing modules, you can follow up with next steps or a welcome message.
+### 7. Logo Color Change Effect
+**Switch Logo Color for Better Contrast**  
+Automatically switch to a contrasting logo color on scroll based on background or user behavior.  
+👉 [View Demo](https://stickyheadereffects.com/sticky-header-for-elementor-templates/?checkbox-sticky_header_effects=Logo+Color+Change&utm_source=wordpress&utm_medium=readmepage&utm_campaign=StickyHeaderEffects)
 
-### Smart Exit-Intent PopUps
-**Catch visitors before they leave your site.**  
-Create popups that activate when visitors are about to navigate away, giving you one last chance to get their attention.
+### 8. Blur Background Effect
+**Add Modern Blur Transition**  
+Enhance the visual flow by applying a subtle blur effect to the background of your sticky header.  
+👉 [View Demo](https://stickyheadereffects.com/sticky-header-for-elementor-templates/?checkbox-sticky_header_effects=Blur+Background&utm_source=wordpress&utm_medium=readmepage&utm_campaign=StickyHeaderEffects)
 
-### Targeting & Behavior Triggers
-**Right message. Right time. Right user.**  
-Set your campaigns to trigger based on scroll percentage, inactivity, referral source, pageviews, exit intent, and more.
+### 9. Hide Header on Scroll Down Effect
+**Hide & Reappear on Scroll**  
+Auto-hide the header when scrolling down and show it again on scroll up — great for content-heavy pages.  
+👉 [View Demo](https://stickyheadereffects.com/sticky-header-for-elementor-templates/?checkbox-sticky_header_effects=Hide+Header+on+Scroll+Down&utm_source=wordpress&utm_medium=readmepage&utm_campaign=StickyHeaderEffects)
 
-### Professional Templates to Get You Started
-**No designer? No problem.**  
-Pick from Hustle’s library of templates for popups, slide-ins, and forms, or start with a blank canvas and design your own.
+### 10. Above Header Section Effect
+**Sync Above Sections Seamlessly**  
+Align your sticky effects with sections above the main header for unified motion and cleaner transitions.  
+👉 [View Demo](https://stickyheadereffects.com/sticky-header-for-elementor-templates/?checkbox-sticky_header_effects=Above+Header+Section&utm_source=wordpress&utm_medium=readmepage&utm_campaign=StickyHeaderEffects)
 
-### Social Sharing Made Simple
-**Grow your audience organically.**  
-Add stylish social sharing icons to posts, pages, and products to make it easy for visitors to share your content.
+### 🔍 Check our other Products
 
-### Measure Performance and Results
-**Intelligent tracking data gives you detailed insights.**  
-View the results of each individual module, with conversion stats displayed in a beautiful, easy-to-understand chart.
+**[🥇 The Plus Addons for Elementor](https://theplusaddons.com/?utm_source=wordpress&utm_medium=readmepage&utm_campaign=StickyHeaderEffects)** – Nexter Extension works seamlessly with The Plus Addons for Elementor. Get 120+ unique Elementor widgets, Elementor templates, and more. Includes Free Elementor Theme Builder.
 
-## What Users Are Saying About Hustle
+**[🥇 Nexter Blocks](https://nexterwp.com/nexter-blocks/?utm_source=wordpress&utm_medium=readmepage&utm_campaign=StickyHeaderEffects)** – Nexter Theme works in sync with core Gutenberg. Add 90+ powerful, highly customizable blocks.
 
-★★★★★  
-“I don’t know how I’ve survived this long without Hustle and Forminator, but I’m now using them on every website I build.” – [sherylryan](https://wordpress.org/support/users/sherylryan/)
+**[🥇 NexterWP Theme](https://nexterwp.com/nexter-theme/?utm_source=wordpress&utm_medium=readmepage&utm_campaign=StickyHeaderEffects)** – Best & Lightest Starter Theme for WordPress & Elementor.
 
-★★★★★  
-“Recovering 15%+ of sales due to this. Insanely good. Thanks!” –  [lmbpack](https://wordpress.org/support/users/lmbpack/)
+**[🥇 Nexter Extension](https://nexterwp.com/nexter-extension?utm_source=wordpress&utm_medium=readmepage&utm_campaign=StickyHeaderEffects)** – Power up your WordPress website with 20+ extensions for layout, performance, security & more.
 
-★★★★★  
-"I’ve been working with WordPress sites on and off for about 15 years, this is hands down the best free plugin I’ve ever used. More features that I could have hoped for. I had to keep checking, ‘is this really the free version??’" – [codenchips](https://wordpress.org/support/users/codenchips/)
+**[🥇 UiChemy - Figma to Elementor Converter](https://uichemy.com/?utm_source=wordpress&utm_medium=readmepage&utm_campaign=StickyHeaderEffects)** – Convert your Figma Templates into live Elementor websites using our [Free Figma Plugin](https://www.figma.com/community/plugin/1265873702834050352/).
 
-★★★★★  
-"We used this plugin to build a beautiful pop-up to attract more users and increase conversion rate. Thanks!" – [inblch98](https://wordpress.org/support/users/inblch98/)
+**[🥇 WDesignKit](https://wdesignkit.com/?utm_source=wordpress&utm_medium=readmepage&utm_campaign=StickyHeaderEffects)** – 1000+ Templates, Elementor & Gutenberg Widget Builder, Cloud Storage, Widget to Block Converter & More.
 
-## A Note from Hustle
+== Installation ==
 
-Hey there! I’m Hustle, your new best friend for lead generation and smart marketing. Whether you need simple email optins or full-blown marketing campaigns with popups, slide-ins, and behavior-driven targeting, I’m here to make it easy (and good-looking).
+### ☑️ How to Install Sticky Header Effects for Elementor in 3 Easy Steps
 
-And just so you know, I’m part of the WPMU DEV family, an all-star team of plugins and site management tools built to help you run faster, smarter, and more profitable WordPress sites.
+1. Make sure Elementor (Free or Pro) is installed and activated.
+2. Install the **Sticky Header Effects for Elementor** plugin from the WordPress plugin repository.
+3. Open any page with Elementor → Select a container or section → Go to the **Advanced Tab** → Enable Sticky Header Settings.
 
-Check out some of my sidekicks:
+== Frequently Asked Questions ==
 
-–   [Smush](https://wordpress.org/plugins/wp-smushit/): Image compression & optimization
-    
-–   [Forminator](https://wordpress.org/plugins/forminator/): Forms, polls, quizzes & surveys
-    
-–   [Hummingbird](https://wordpress.org/plugins/hummingbird-performance/): Page speed & performance booster
-    
-–   [Hustle](https://wordpress.org/plugins/wordpress-popup/): Popups, slide-ins & email optins
-    
-–   [Defender](https://wordpress.org/plugins/defender-security/): Security, monitoring & hack protection
-    
-–   [SmartCrawl](https://wordpress.org/plugins/smartcrawl-seo/): SEO checker, analyzer & optimizer
-    
+** Why isn't the "shrink" effect working? **
 
-If you love easy wins (and we know you do 😉), you’re going to love teaming up with Hustle. Let’s grow together!
+The header cannot shrink smaller than the objects inside of it!
 
-## Built for Marketers and Makers
+The "shrink" effect is restricted by the size of the content in the header section. Such as logos, images, menus, widgets, and also all of the padding and margins of those elements. This also inclused the padding and margins of the sections and columns themselves.
 
-Hustle offers you:
+To get the best "shrink" effect use these settings:
+* Set the top and bottom padding to 0px on your sticky header section, column, and elements inside of it.
+* Set a custom logo and other image height(you can leave the width blank for "auto").
+* Set the header section height to "min height" and adjust it to your desired height.
 
-–   Popups that convert without annoying users
-    
-–   Classy slide-ins for subtle promotions
-    
-–   Embedded optin forms to grow your email list
-    
-–   Smart behavior triggers based on scroll, exit intent, or time
-    
-–   Social share bars to expand your content’s reach
-    
-–   Stylish templates to get started fast
-    
+Basically what happens is that the content of the header is "too tall" to shrink down anymore.
 
-## Installation – Get Hustling in 5 Minutes
+** Do I need Elementor Pro to use this plugin?**  
+No, this plugin works perfectly with Elementor Free, If you are using Free Navigation Widget from The Plus Addons for Elementor. You’ll only need Elementor Pro if you're using Pro Navigation widgets.
 
-It’s easy to get started with Hustle. No coding. No frustration.  
-Just beautiful results, fast.
+** Is this a standalone plugin?**  
+No, it requires Elementor Free or Pro. It extends Elementor’s functionality with new header scroll effects. 
 
-1.  Install the plugin from the WordPress Plugin Directory or upload it manually.
-    
-2.  Activate Hustle through the 'Plugins' menu in WordPress.
-    
-3.  Navigate to Hustle in your dashboard and start creating popups, slide-ins, and optins.
-    
-4.  Publish your campaigns and watch your conversions climb.
-    
+** Where can I find the Sticky Header Effects settings?**  
+Inside Elementor Editor → Select any container → Go to **Advanced Tab** → Scroll to **Sticky Header Effects** section.
 
-Need help? [Full documentation is available here](https://wpmudev.com/docs/wpmu-dev-plugins/hustle/?utm_source=wordpress.org&utm_medium=readme&utm_campaign=hustle-readme&utm_content=fully_documented).
+** Will this plugin work with any WordPress theme?**  
+Yes, it works seamlessly with most Elementor-optimized themes, including Hello, Nexter, Astra, and more.
 
-### Learn The Ropes With These Hands-On Hustle Tutorials
+** Will this slow down my website?**  
+Not at all. It’s highly optimized for performance and coded lightweight to ensure fast page loads. It's lightest sticky header menu option with Google Page Speed optimized for top notch score. 
 
-–   [How to Make the Perfect Popup with Hustle](https://wpmudev.com/blog/make-perfect-popup-with-hustle/)
-    
-–   [How To Get the Most Out of Using Hustle](https://wpmudev.com/blog/get-the-most-out-of-hustle/)
-    
-–   [Oh, Behave! How to Use Behavior Settings in Hustle](https://wpmudev.com/blog/hustle-behavior-settings/)
-    
-–   [How to Use Visibility Conditions in Hustle](https://wpmudev.com/blog/hustle-visibility-conditions/)
-    
-–   [How to Get the Most Email Subscribers Using Hustle](https://wpmudev.com/blog/how-to-get-the-most-email-subscribers-using-hustle/)
-    
-
-## About Us
-
-At WPMU DEV, we’re dedicated to helping WordPress users build faster, smarter, more secure websites with our suite of powerful plugins, site tools, and expert support.
-
-Join our community of developers, designers, and site owners at [wpmudev.com](https://wpmudev.com/), your all-in-one destination for WordPress success.
-
-Want to sharpen your skills and stay on top of the latest tips and trends? The [WPMU DEV Blog](https://wpmudev.com/blog/) is your go-to source for top-tier tutorials, updates, and insights.
-
-And hey, thanks for [using our free plugins](https://profiles.wordpress.org/wpmudev/#content-plugins)! We’ve loved building them for you, and we’re excited to see what you create with them.
-
-==Frequently Asked Questions==
-
-=What’s the difference between Hustle Free and Hustle Pro?=  
-The free version gives you all core features, including popups, slide-ins, and templates. Pro unlocks unlimited campaigns, advanced targeting, analytics, A/B testing and more powerful integrations.
-
-=Will Hustle slow down my site?=  
-Not a chance. Hustle is optimized for performance and built by the same team behind Smush and Hummingbird.
-
-=Can I use Hustle with my email marketing service?=  
-Absolutely. Hustle integrates with popular services like Mailchimp, ActiveCampaign, Campaign Monitor, SendGrid, and more.
-
-=Is Hustle GDPR compliant?=  
-Yes! Hustle offers features like optin consent checkboxes and data privacy settings to help you comply with GDPR regulations.
-
-=Can I customize popups and optins to match my brand?=  
-Of course! Hustle’s visual editor lets you tweak every detail, fonts, colors, backgrounds, animations, layouts, to match your brand perfectly. As well as basic appearance elements, Hustle also allows for more advanced detailing like borders, spacing, shadow, module sizing and more. There’s also custom CSS, so you can really make your modules your own.
-
-= How can I report security issues or bugs? =
-We take plugin security incredibly seriously; if you have a bug or vulnerability to report, you can do so through the Patchstack Vulnerability Disclosure Program. It’s fast, easy, and you will be notified when the issue is fixed. [Report a vulnerability](https://patchstack.com/database/vdp/wordpress-popup).
 == Screenshots ==
 
-1. Create and Customize Popups
-2. Use Pre-designed Templates
-3. Customize Appearance
-4. Set Visibility Conditions & Triggers
-5. Integrate with 1000+ Apps & Tools
-6. Schema Type Builder
+1. Introducing Sticky Header for Elementor – Overview of all key features and updates
+2. Find Sticky Header settings inside Elementor’s Advanced Tab
+3. Works seamlessly with Elementor Free & Pro – No limitations
+4. Includes 50+ Ready-to-use Elementor Header Templates
+5. Powerful Scroll Effects – Shrink, Blur, Hide, Color Swap & More
+6. Fine-Tuned Styling Controls – Customize behavior for each device
+7. Advanced Branding & Logo Effects – Shrink, Color Swap, Responsive
+8. Smarter Scroll Behaviors – Transparent, Distance Control, Sticky Logic
 
 == Changelog ==
 
- = 7.8.8 ( 2025-09-08 )
+= 2.1.2 =
+- Improvement : WDesignKit 2.0 Compatibility
+- Fixed: Minor Bug Fixes & Performance Improvements
 
-- Improve: Accessibility enhancements across plugin admin screens for better screen reader support.
-- Improve: Adjusted color contrast on UI elements to meet WCAG 2 AA standards.
-- Fix: Corrected ARIA attributes on form fields and buttons.
-- Fix: Conversion tracking not working when only a CTA button is present.
-- Fix: "Never see this again" cookie expiration date incorrectly tied to Closing behavior setting.
+= 2.1.1 =
+- improvement: Header Template Import Process
+- Fixed: Minor Bug Fixes & Performance Improvements
 
-= 7.8.7 ( 2025-04-25 ) =
+= 2.1.0 =
+- Fixed: Header Resize Issue Fixed
+- Fixed: Minor Bug Fixes & Performance Improvements
 
-– Enhance: Compatibility with WordPress 6.8
-– Enhance: Add a new menu item to help you discover other free plugins by WPMU DEV and more
+= 2.0 =
+- New: Dashboard for better UI/UX
+- New: Add Preset Option for the Ready Design
+- New: Dashboard : Plugin Rollback Option
+- Fixed: Minor Bug Fixes & Performance Improvements
 
-= 7.8.6 ( 2024-11-25 ) =
+= 1.7.8 =
+- Fixed: Offset issues on the frontend
+- Fixed: Minor Bug Fixes & Performance Improvements
 
-– Fix: Notice for _load_textdomain_just_in_time called incorrectly
-– Fix: Security hardening
+= 1.7.7 =
+- Fixed: Minor Bug Fixes & Performance Improvements
 
-= 7.8.5 ( 2024-08-05 ) =
+= 1.7.6 =
+- Fixed: Offset issues on the frontend
+- Fixed: Minor Bug Fixes & Performance Improvements
 
-– Fix: XSS Security vulnerability
+= 1.7.5 =
+- Added: Offset Option for Sticky Elements to Control the Distance from the Top With Responsive Support.
+- Added: Padding Option to Customize Spacing for Sticky Elements with Responsive Support.
+- Added: Width Option to Define the Width of Sticky Elements Dynamically With Responsive Support.
+- Fixed: Minor Bug Fixes & Performance Improvements
 
+= 1.7.4 =
+- Added: Compatibility with Elementor Containers
+- Fixed: Minor Bug Fixes & Performance Improvements
 
-= 7.8.4 ( 2024-03-07 ) =
+= 1.7.3 =
+- Maintenance: Wordpress 6.7 compatibility update
 
-– Fix: Security vulnerability
+= 1.7.2 =
+- Fixed: Bugs
 
+= 1.7.1 =
+- Fixed: Improved method for not overriding elementor sticky settings.
 
-= 7.8.3 ( 2024-01-17 ) =
+= 1.7 =
+- Maintenance: Wordpress 6.5 compatibility update
+- Notice: Plugin will only receive minimal support
+- Added: Pro features that would have never been released(Disable Fully Transparent Background, Background Type, Custom Menu Toggle Button, Bottom Shadow, Blur Background settings)
 
- – Aligned Pro and Free version numbers to ensure consistency and simplify version management.
- – Enhance: Compatibility with PHP 8.3
- – Enhance: Twitter rebranding
- – Fix: Scroll issue on Pop-ups and Slide-ins preview when content is lengthy
- – Fix: Size of summary box logo
+= 1.6.11 =
+- Maintenance: Wordpress 6.5 compatibility update
 
+= 1.6.10 =
+- Maintenance: Wordpress 6.4 compatibility update
 
-= 10.8.2 ( 2023-10-03 ) =
+= 1.6.9 =
+Fixed: Javascript bug with sections
+Fixed: Header width bug
+Tweaked: Optimized CSS
 
- – Fix: ConstantContact authentification.
- – Fix: Cannot edit or add hyperlink
- – Fix: Click triggers not working for elements loaded after Hustle has loaded
- – Fix: Popup on exit intent is triggered when select box option is changed
- – Fix: Text Field error message apostrophe is converted to &#039;
- – Fix: Deprecated notice for PHP 8.2
- – Enhance: Update the "Sendinblue" brand name to "Brevo"
- – Enhance: Remove mascot images
+= 1.6.8 =
+Fixed: Shrink logo bug
+Fixed: Shrink header bug
+Fixed: Transparent header bug
+Fixed: All CSS color and size transitions
+Added: Compatibility with new elementor "mega" menu
+Added: Ability to override logo color change on elements using class "not-logo"
+Tweaked: Logo color change optimized so "full color" option no longer overwrites elementor css settings
 
+= 1.6.7 =
+- Fixed: Transparent header bug
 
-= 10.8.1 ( 2023-08-24 ) =
+= 1.6.6 =
+- Fixed: Shrink header bug
+- Fixed: Bottom border color and size transitions
+- Added: Compatibility with new elementor "mega" menu
+- Added: Ability to override logo color change on elements using class "not-logo"
+- Tweaked: Logo color change optimized so "full color" option no longer overwrites elementor css settings
 
-– Enhance: Set up a redirect URL for Hubspot
-– Fix: Issues with Hustle ActiveCampaign integration
-– Fix: Bullet Points are not showing on the success message
+= 1.6.5 =
+- Tweaked: Logo transition CSS for image widget
+- Tweaked: Logo color CSS for image widget
+- Maintenance: Wordpress 6.2 compatibility update
 
+= 1.6.4 =
+- Fixed: Js bug
+- Fixed: Logo color not changing on scroll
+- Fixed: CSS for smooth transitions
+- Konwn Bugs: Shrink logo/header
 
-= 10.8.0 ( 2023-06-27 ) =
+= 1.6.3 =
+- Reverted to 1.5.5 only with container compatibility
 
-– Enhance: Require PHP 7.4 as the minimum supported version
-– Enhance: Prevent XSS vulnerability in translations
-– Enhance: Update the "InfusionSoft" brand name to "Keap"
-– Fix: Prevent page scroll to a Hustle Embed when a Pop-Up is closed
-– Fix: Custom Margin, Padding, and Border do not work for Slide-ins
-– Fix: Social Sharing module and Static Server Cache causing critical error
-– Fix: Issue with Close button on iOS
+= 1.6.2 =
+- Fixed: Section height bug
 
+= 1.6.1 =
+- Fixed: Js bug
+- Fixed: Container shrink bug
 
-= 10.7.1 ( 2023-06-07 ) =
+= 1.6 =
+- Fixed: Shrinking Logo bug
+- Fixed: Container support using Elementor free
+- Fixed: Logo color change set to none doesn't remove CSS filter settings
+- Added: Disable/enable completely transparent header
+- Tweak: Changed logo color settings to be more clear 
+- Maintenence: Optimized CSS for v2.0
+- Maintenence: Optimized JavaScript for v2.0
+- Maintenence: Optimized Elementor controls for v2.0
 
-– Enhance: Performance improvements.
+= 1.5.5 =
+- Fixed: Shrinking Logo bug
+- Fixed: Header section top position
+- Maintenence: Optimized CSS code
 
-[Changelog for previous versions](https://wpmudev.com/project/hustle/#view-changelog).
+= 1.5.4 =
+- Fixed: Shrinking Logo bug
+
+= 1.5.3 =
+- Fixed: Gap above mobile header bug
+
+= 1.5.2 =
+- Fixed: Gap above header bug
+
+= 1.5.1 =
+- Fixed: Wordpress admin bar bug
+
+= 1.5 =
+- Fixed: Gap above header bug
+
+= 1.4.9 =
+- Added: Compatibility with Elementor Containers
+- Maintenance: Wordpress 6.0 compatibility update
+
+= 1.4.8 =
+- Maintenance: Wordpress 5.9 compatibility update
+
+= 1.4.7 =
+- Fixed: Misc Bugs
+
+= 1.4.6 =
+- Fixed: Hide header bug
+
+= 1.4.5 =
+- Fixed: WP admin bar bug
+
+= 1.4.4 =
+- Maintenance: Wordpress 5.8 compatibility update
+- Fixed: Header width bug
+- Update: Better responsive Worspress admin bar handling
+
+= 1.4.3 =
+- Fixed: Full color logo after scroll bug
+
+= 1.4.2 =
+- Fixed: Bugs
+
+= 1.4.1 =
+- Fixed: Gap above header bug
+
+= 1.4.0 =
+- Added: Wordpress 5.5 compatibility
+- Added: Elementor 3 compatibility
+- Added: Hide on scroll down feature
+- Added: Blur background feature
+- Added: Before and after scrolling logo color options
+- Fixed: Opera browser hash links not activating scrolling effects
+- Fixed: Editor handle bug
+- Fixed: All labels and descriptions to help with user operation
+- Fixed: Various code optimizations
+- Fixed: Transparent on mobile bug
+- Fixed: Stretched section broke transparent header
+
+= 1.3.2 =
+- Fixed: Transition CSS
+
+= 1.3.1 =
+- Fixed: Bugs
+
+= 1.3.0 =
+- Added: Shrink Logo feature
+
+= 1.2.3 =
+- Fixed: Hook on the new Elementor Pro 2.4.7 version
+
+= 1.2.2 =
+- Removed: Stretched section condition
+
+= 1.2.1 =
+- Added: Compatibility with the new Elementor 2.1.1 version
+- Fixed: JavaScript error
+
+= 1.2.0 =
+- Removed: Sticky Header feature(Elementor fixed theirs)
+- Added: Transparent header feature
+- Added: Compatibility with the new Elementor 2.1 version
+- Added: Change javascript to external file
+- Fixed: Bugs
+
+= 1.1.2 =
+- Fixed: Bugs
+
+= 1.1.1 =
+- Fixed: Bug where section didn't move to top of page
+
+= 1.1.0 =
+- Added: Sticky header feature
+- Added: Bottom border feature
+- Fixed: Bugs with tablet and mobile responsive modes
+- Fixed: Padding issues when using the "shrink" effect
+
+= 1.0.0 =
+
+- Initial stable release
+
+== Upgrade Notice ==
+= 1.7.3 =
+- Maintenance: Wordpress 6.7 compatibility update
+
+= 1.7.2 =
+- Fixed: Bugs
+
+= 1.7.1 =
+- Fixed: Improved method for not overriding elementor sticky settings.
+
+= 1.7 =
+- Maintenance: Wordpress 6.5 compatibility update
+- Notice: Plugin will only receive minimal support
+- Added: Pro features that would have never been released(Disable Fully Transparent Background, Background Type, Custom Menu Toggle Button, Bottom Shadow, Blur Background settings)
+
+= 1.6.11 =
+- Maintenance: Wordpress 6.5 compatibility update
+
+= 1.6.10 =
+- Maintenance: Wordpress 6.4 compatibility update
+
+= 1.6.9 =
+Fixed: Javascript bug with sections
+Fixed: Header width bug
+Tweaked: Optimized CSS
+
+= 1.6.8 =
+Fixed: Shrink logo bug
+Fixed: Shrink header bug
+Fixed: Transparent header bug
+Fixed: All CSS color and size transitions
+Added: Compatibility with new elementor "mega" menu
+Added: Ability to override logo color change on elements using class "not-logo"
+Tweaked: Logo color change optimized so "full color" option no longer overwrites elementor css settings
+
+= 1.6.7 =
+- Fixed: Transparent header bug
+
+= 1.6.6 =
+- Fixed: Shrink header bug
+- Fixed: Bottom border color and size transitions
+- Added: Compatibility with new elementor "mega" menu
+- Added: Ability to override logo color change on elements using class "not-logo"
+- Tweaked: Logo color change optimized so "full color" option no longer overwrites elementor css settings
+
+= 1.6.5 =
+- Tweaked: Logo transition CSS for image widget
+- Tweaked: Logo color CSS for image widget
+- Maintenance: Wordpress 6.2 compatibility update
+
+= 1.6.4 =
+- Fixed: Js bug
+- Fixed: Logo color not changing on scroll
+- Fixed: CSS for smooth transitions
+- Konwn Bugs: Shrink logo/header
+
+= 1.6.3 =
+This is identical to v1.5.5 only with container compatibility.
+
+= 1.6.2 =
+The 1.6 update includes some substantial changes.
+**Some settings may need to be re-applied to continue to work properly.**
+
+= 1.6 =
+**Heads up, Please backup before updating!**
+
+The latest update includes some substantial changes. We highly recommend you backup your site before upgrading, and make sure you first update in a staging environment.
+**Some settings may need to be re-applied to continue to work properly.**
+
+= 1.5.5 =
+Fixed: Shrinking Logo bug
+Fixed: Header section top position
+Maintenence: Optimized CSS code
+
+= 1.5.4 =
+Fixed: Shrinking Logo bug
+
+= 1.5.3 =
+Fixed: Gap above mobile header bug
+
+= 1.5.2 =
+Fixed: Gap above header bug
+
+= 1.5.1 =
+Fixed: Wordpress admin bar bug
+
+= 1.5 =
+Fixed: Gap above header bug
+
+= 1.4.9 =
+Added: Compatibility with Elementor Containers
+Maintenance: Wordpress 6.0 compatibility update
+
+= 1.4.8 =
+Maintenance: Wordpress 5.9 compatibility update
+
+= 1.4.7 =
+Fixed: Misc Bugs
+
+= 1.4.6 =
+Fixed: Hide header bug
+
+= 1.4.5 =
+Fixed: WP admin bar bug
+
+= 1.4.4 =
+Maintenance: Wordpress 5.8 compatibility update
+Fixed: Header width bug
+Update: Better responsive Worspress admin bar handling
+
+= 1.4.3 =
+Fixed: Full color logo after scroll bug
+
+= 1.4.2 =
+Fixed: Bugs
+
+= 1.4.1 =
+Fixed: Gap above header bug
+
+= 1.4.0 =
+- Added: Wordpress 5.5 compatibility
+- Added: Elementor 3 compatibility
+- Added: Hide on scroll down feature
+- Added: Blur background feature
+- Added: Before and after scrolling logo color options
+- Fixed: Opera browser hash links not activating scrolling effects
+- Fixed: Editor handle bug
+- Fixed: All labels and descriptions to help with user operation
+- Fixed: Various code optimizations
+- Fixed: Transparent on mobile bug
+- Fixed: Stretched section broke transparent header
+
+= 1.3.2 =
+- Fixed: Transition CSS
+
+= 1.3.1 =
+- Fixed: Bugs
+
+= 1.3.0 =
+- Added: Shrink Logo featured
+
+= 1.2.3 =
+- Fixed: Hook on the new Elementor Pro 2.4.7 version
+
+= 1.2.2 =
+- Removed: Stretched section condition
+
+= 1.2.1 =
+- Added: Compatibility with the new Elementor 2.1.1 version
+- Fixed: JavaScript error
+
+= 1.2.0 =
+Removed: Sticky Header feature(Elementor fixed theirs)
+Added: Transparent header feature
+Added: Compatibility with the new Elementor 2.1 version
+Added: Change javascript to external file
+Fixed: Bugs
+
+= 1.1.2 =
+Bug fixes
+
+= 1.1.1 =
+Bug fixes
+
+= 1.1.0 =
+This version adds "Sticky Header" and "Bottom Border" options.
+The sticky feature will bring the section down and overlay it on top of the page. This eliminates the need for negative margins which causes page scrolling problems.
+The bottom border feature adds bottom border width and color options when user scrolls.
