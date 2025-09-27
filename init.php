@@ -1,198 +1,197 @@
 <?php
-/**
- * The initation loader for CMB2, and the main plugin file.
+/*
+ * SOFTWARE LICENSE INFORMATION
  *
- * @category     WordPress_Plugin
- * @package      CMB2
- * @author       CMB2 team
- * @license      GPL-2.0+
- * @link         https://cmb2.io
+ * Copyright (c) 2017 Buttonizer, all rights reserved.
  *
- * Plugin Name:  CMB2
- * Plugin URI:   https://github.com/CMB2/CMB2
- * Description:  CMB2 will create metaboxes and forms with custom fields that will blow your mind.
- * Author:       CMB2 team
- * Author URI:   https://cmb2.io
- * Contributors: Justin Sternberg (@jtsternberg / dsgnwrks.pro)
- *               WebDevStudios (@webdevstudios / webdevstudios.com)
- *               Human Made (@humanmadeltd / hmn.md)
- *               Jared Atchison (@jaredatch / jaredatchison.com)
- *               Bill Erickson (@billerickson / billerickson.net)
- *               Andrew Norcross (@norcross / andrewnorcross.com)
+ * This file is part of Buttonizer
  *
- * Version:      2.11.0
- *
- * Text Domain:  cmb2
- * Domain Path:  languages
- *
- *
- * Released under the GPL license
- * http://www.opensource.org/licenses/gpl-license.php
- *
- * This is an add-on for WordPress
- * https://wordpress.org/
- *
- * **********************************************************************
- * This program is free software; you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation; either version 2 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- * **********************************************************************
+ * For detailed information regarding to the licensing of
+ * this software, please review the license.txt or visit:
+ * https://buttonizer.pro/license/
  */
 
+use BZContactButton\Admin\Admin;
+use BZContactButton\Utils\Settings;
+use BZContactButton\Api\Api;
+use BZContactButton\Utils\PermissionCheck;
+
 /**
- * *********************************************************************
- *               You should not edit the code below
- *               (or any code in the included files)
- *               or things might explode!
- * ***********************************************************************
+ * Get current languages
  */
+function bcbGetCurrentLanguage()
+{
+    // Polylang
+    if (function_exists("pll_current_language")) {
+        return pll_current_language("slug");
+    }
 
-if ( ! class_exists( 'CMB2_Bootstrap_2110', false ) ) {
+    // Weglot
+    if (function_exists("weglot_get_current_language")) {
+        return weglot_get_current_language();
+    }
 
-	/**
-	 * Handles checking for and loading the newest version of CMB2
-	 *
-	 * @since  2.0.0
-	 *
-	 * @category  WordPress_Plugin
-	 * @package   CMB2
-	 * @author    CMB2 team
-	 * @license   GPL-2.0+
-	 * @link      https://cmb2.io
-	 */
-	class CMB2_Bootstrap_2110 {
+    // WMPL
+    $currentLanguage = apply_filters('wpml_current_language', NULL);
 
-		/**
-		 * Current version number
-		 *
-		 * @var   string
-		 * @since 1.0.0
-		 */
-		const VERSION = '2.11.0';
+    // Try to fall back on current language
+    if (!$currentLanguage) return substr(get_bloginfo('language'), 0, 2);
 
-		/**
-		 * Current version hook priority.
-		 * Will decrement with each release
-		 *
-		 * @var   int
-		 * @since 2.0.0
-		 */
-		const PRIORITY = 9957;
+    return $currentLanguage;
+}
 
-		/**
-		 * Single instance of the CMB2_Bootstrap_2110 object
-		 *
-		 * @var CMB2_Bootstrap_2110
-		 */
-		public static $single_instance = null;
+/**
+ * Custom language
+ *
+ * Automatically redirects to the page in current language
+ */
+function bz_button_contact_redirect_to_page()
+{
+    // Validate params
+    if (!isset($_GET['page_id']) || !is_numeric($_GET['page_id']) || !isset($_GET['is_bz_button_contact_redirect'])) {
+        return;
+    }
 
-		/**
-		 * Creates/returns the single instance CMB2_Bootstrap_2110 object
-		 *
-		 * @since  2.0.0
-		 * @return CMB2_Bootstrap_2110 Single instance object
-		 */
-		public static function initiate() {
-			if ( null === self::$single_instance ) {
-				self::$single_instance = new self();
-			}
-			return self::$single_instance;
-		}
+    $id = $_GET['page_id'];
+    $page = null;
 
-		/**
-		 * Starts the version checking process.
-		 * Creates CMB2_LOADED definition for early detection by other scripts
-		 *
-		 * Hooks CMB2 inclusion to the init hook on a high priority which decrements
-		 * (increasing the priority) with each version release.
-		 *
-		 * @since 2.0.0
-		 */
-		private function __construct() {
-			/**
-			 * A constant you can use to check if CMB2 is loaded
-			 * for your plugins/themes with CMB2 dependency
-			 */
-			if ( ! defined( 'CMB2_LOADED' ) ) {
-				define( 'CMB2_LOADED', self::PRIORITY );
-			}
+    // Polylang
+    if (function_exists("pll_get_post")) {
+        $page = pll_get_post($id);
+    }
 
-			if ( ! function_exists( 'add_action' ) ) {
-				// We are running outside of the context of WordPress.
-				return;
-			}
+    // Check WPML translated page
+    if (!$page && $wpmlObject = apply_filters('wpml_object_id', $id)) {
+        $page = $wpmlObject;
+    }
 
-			add_action( 'init', array( $this, 'include_cmb' ), self::PRIORITY );
-		}
+    // Redirect if post or page was found
+    if ($pageUrl = get_the_permalink($page ?? $id)) {
+        // Check if the page was redirected
+        if (!wp_redirect($pageUrl, 302, 'Buttonizer')) {
+            // Make sure to receive a safe redirect URL
+            $redirectUrl = wp_validate_redirect(wp_sanitize_redirect($pageUrl), false);
 
-		/**
-		 * A final check if CMB2 exists before kicking off our CMB2 loading.
-		 * CMB2_VERSION and CMB2_DIR constants are set at this point.
-		 *
-		 * @since  2.0.0
-		 */
-		public function include_cmb() {
-			if ( class_exists( 'CMB2', false ) ) {
-				return;
-			}
+            // Only redirect if it's a safe and allowed host
+            if ($redirectUrl) {
+                header("Location: " . $redirectUrl, true, 302);
+            }
 
-			if ( ! defined( 'CMB2_VERSION' ) ) {
-				define( 'CMB2_VERSION', self::VERSION );
-			}
+            exit("A redirect was cancelled.");
+        }
+        exit;
+    }
+}
 
-			if ( ! defined( 'CMB2_DIR' ) ) {
-				define( 'CMB2_DIR', trailingslashit( dirname( __FILE__ ) ) );
-			}
+/*
+ * Contact Button Admin Dashboard
+ */
+if (is_admin()) {
+    // Load Admin page
+    new Admin();
+}
 
-			$this->l10ni18n();
+/**
+ * Redirect to page in correct language
+ */
+add_action('template_redirect', 'bz_button_contact_redirect_to_page', 0);
 
-			// Include helper functions.
-			require_once CMB2_DIR . 'includes/CMB2_Base.php';
-			require_once CMB2_DIR . 'includes/CMB2.php';
-			require_once CMB2_DIR . 'includes/helper-functions.php';
+/**
+ * Add Buttonizer scripts
+ */
+// Add page data
+add_action('wp_head', function () {
+    if (Settings::getSetting("site_id")) {
+        // Get current page language
+        $pageData = [
+            "language" => bcbGetCurrentLanguage()
+        ];
 
-			// Now kick off the class autoloader.
-			spl_autoload_register( 'cmb2_autoload_classes' );
+        // Add Buttonize page data
+        if (Settings::getSetting("include_page_data", false)) {
+            // Get page categories
+            $pageCategories = array_map(function ($category) {
+                return $category->cat_ID;
+            }, get_the_category());
 
-			// Kick the whole thing off.
-			require_once( cmb2_dir( 'bootstrap.php' ) );
-			cmb2_bootstrap();
-		}
+            // Collect page data
+            $pageData = array_merge([
+                "page_id" => get_the_ID(),
+                "categories" => $pageCategories,
+                "is_frontpage" => is_front_page(),
+                "is_404" => is_404(),
+                "user_roles" => PermissionCheck::getUserRoles()
+            ], $pageData);
+        }
 
-		/**
-		 * Registers CMB2 text domain path
-		 *
-		 * @since  2.0.0
-		 */
-		public function l10ni18n() {
+        // Define page data
+        $buttonizerData = "if(!window._buttonizer) { window._buttonizer = {}; };var _buttonizer_page_data = " . json_encode($pageData) . ";window._buttonizer.data = { ..._buttonizer_page_data, ...window._buttonizer.data };";
 
-			$loaded = load_plugin_textdomain( 'cmb2', false, '/languages/' );
+        echo '<script type="text/javascript">' . $buttonizerData . '</script>';
+    }
+}, 10);
 
-			if ( ! $loaded ) {
-				$loaded = load_muplugin_textdomain( 'cmb2', '/languages/' );
-			}
+// Add integration script
+add_action('wp_footer', function () {
+    if (Settings::getSetting("site_id")) {
+        // Buttonizer integration script
+        $buttonizerSnippet = "(function(n,t,c,d){if(t.getElementById(d)){return}var o=t.createElement('script');o.id=d;(o.async=!0),(o.src='https://cdn.buttonizer.io/embed.js'),(o.onload=function(){window.Buttonizer?window.Buttonizer.init(c):window.addEventListener('buttonizer_script_loaded',()=>window.Buttonizer.init(c))}),t.head.appendChild(o)})(window,document,'" . Settings::getSetting("site_id") . "','buttonizer_script')";
 
-			if ( ! $loaded ) {
-				$loaded = load_theme_textdomain( 'cmb2', get_stylesheet_directory() . '/languages/' );
-			}
+        // GDPR Compliance check
+        if (Settings::getSetting("wait_until_consent", false)) {
+            $buttonizerSnippet = "// Buttonizer snippet container
+function enableButtonizer() {" . $buttonizerSnippet . "};
 
-			if ( ! $loaded ) {
-				$locale = apply_filters( 'plugin_locale', function_exists( 'determine_locale' ) ? determine_locale() : get_locale(), 'cmb2' );
-				$mofile = dirname( __FILE__ ) . '/languages/cmb2-' . $locale . '.mo';
-				load_textdomain( 'cmb2', $mofile );
-			}
+// Buttonizer consent given, load content
+if(window.buttonizer_consent_given){ enableButtonizer(); }";
+        }
 
-		}
+        echo '<script type="text/javascript">' . $buttonizerSnippet . '</script>';
+    }
+}, 11);
 
-	}
+// Validator only available after WP 4.9
+function BcbIsValidUUID($uuid)
+{
+    $regex = '/^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/';
 
-	// Make it so...
-	CMB2_Bootstrap_2110::initiate();
+    return (bool) preg_match($regex, $uuid);
+}
 
-}// End if().
+// Buttonizer widget shortcode
+function bcbWidgetShortcode($atts)
+{
+    // Get attributes
+    $atts = shortcode_atts(
+        array(
+            'id' => '',
+        ),
+        $atts
+    );
+
+    // Make sure the ID exists and is a valid UUID
+    if (!isset($atts['id']) || !is_string($atts['id']) || !BcbIsValidUUID($atts['id'])) return "";
+
+    return '<div class="buttonizer-inline-widget" data-buttonizer-widget-id="' . $atts['id'] . '"></div>';
+};
+
+function bcbInitFunction()
+{
+    if (!shortcode_exists("buttonizer")) {
+        add_shortcode('buttonizer', 'bcbWidgetShortcode');
+    }
+}
+
+add_action('init', 'bcbInitFunction');
+
+// Add admin menu
+add_action('admin_bar_menu', function ($bar) {
+    Admin::wordpressAdminBar($bar);
+}, 100);
+
+/**
+ * Initialize Buttonizer API endpoints
+ */
+add_action('rest_api_init', function () {
+    new Api();
+});
